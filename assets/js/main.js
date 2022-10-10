@@ -1,12 +1,12 @@
 for (let i = 1; i <=100; i++) {
-    let x = i;
+    let varianteDAppoggio = i;
  
     if ((i%3)===0 && (i%5)===0){
-     x ='fizz-buzz';
+        varianteDAppoggio ='FizzBuzz';
     } else if((i%3)===0){
-         x = 'fizz';
+        varianteDAppoggio = 'Fizz';
      } else if ((i%5)===0){
-         x ='buzz';
+        varianteDAppoggio ='Buzz';
      } 
-     console.log(x);
+     console.log(varianteDAppoggio);
  }

@@ -1,0 +1,43 @@
+:root{
+    --clr-background: #183A4A;
+    --clr-number: #3D88AE;
+    --clr-fizz: #61D2A4;
+    --clr-buzz: #F9D277;
+    --clr-fizz_buzz: #DE5471;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--clr-background);
+}
+
+.fizz{
+    background-color: var(--clr-fizz);
+}
+
+.buzz{
+    background-color: var(--clr-buzz);
+}
+
+.fizz_buzz{
+    background-color: var(--clr-fizz_buzz);
+}
+
+.number{
+    background-color: var(--clr-number);
+}
+
+.square{
+    height: 150px;
+    line-height: 150px;
+    aspect-ratio: 1/1;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 5rem;
+}
